@@ -24,9 +24,12 @@
   margin-left: 20px;
 }
 
-.menu {
+.menu a {
   font-size: 16px;
+  color: #4a4a4a;
+  text-decoration: none;
 }
+
 
 .container {
   background-color: #3cdbc0;
