@@ -1,9 +1,61 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.imagen-adalab {
+  width: 155px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  width: 100%;
+  align-items: center;
+  margin: 10px 0px 13px 0px;
+  text-align: center;
+}
+
+.contacto {
+  margin-left: 20px;
+}
+
+.menu {
+  font-size: 16px;
 }
 
 .container {
-    background-color: #3CDBC0;
-    color: #FFFFFF;
+  background-color: #3cdbc0;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #ffffff;
+  /* margin: 115px 0px 0px 0px; */
+}
+
+@media all and (min-width: 768px) {
+  .container-descrip {
+    font-size: 40px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .imagen-adalab {
+    margin: 20px 0px 20px 30px;
+    justify-content: center;
+  }
+
+  .contacto {
+    margin-right: 30px;
+  }
 }
